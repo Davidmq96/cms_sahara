@@ -1,0 +1,18 @@
+services:
+  - type: web
+    name: directus-app
+    env: node
+    plan: free
+    buildCommand: npm install && npx directus bootstrap
+    startCommand: npx directus start
+    envVars:
+      - key: NODE_ENV
+        value: production
+      - key: ADMIN_EMAIL
+        value: admin@tuapp.com
+      - key: ADMIN_PASSWORD
+        value: supersegura123
+      - key: KEY
+        generateValue: true
+      - key: SECRET
+        generateValue: true

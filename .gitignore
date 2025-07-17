@@ -1,0 +1,14 @@
+# Node
+node_modules/
+.env
+.cache/
+dist/
+tmp/
+*.log
+
+# Directus-specific
+uploads/
+database.sqlite
+
+# Misc
+.DS_Store
