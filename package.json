@@ -6,7 +6,6 @@
   "scripts": {
     "start": "npx directus start"
   },
-
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -15,6 +14,7 @@
     "axios": "^1.10.0",
     "directus": "^11.9.3",
     "form-data": "^4.0.3",
-    "mssql": "^11.0.1"
+    "mssql": "^11.0.1",
+    "http-proxy-middleware": "^2.0.6"
   }
 }
